@@ -10,39 +10,39 @@ export default function SAC() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='/images/sac/img-1.png'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              src='/images/sac/nss/21.jpg'
+              text='“Be yourself; everyone else is already taken.”'
               label='Adventure'
-              path='/services'
+              path=''
             />
             <CardItem
-              src='/images/sac/img-2.png'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              src='/images/sac/img-1.png'
+              text='“Action may not always bring happiness; but there is no happiness without action.”'
               label='Luxury'
-              path='/services'
+              path=''
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='/images/sac/img-6.png'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              src='/images/sac/nss/20.jpg'
+              text='“The true meaning of life is to plant trees, under whose shade you do not expect to sit.”'
               label='Mystery'
-              path='/services'
+              path=''
             />
             </ul>
             <ul className='cards__items'>
 
             <CardItem
-              src='/images/sac/img-4.png'
-              text='Experience Football on Top of the Himilayan Mountains'
+              src='/images/img-8.jpeg'
+              text='“Keep your eyes on the stars, and your feet on the ground.”'
               label='Adventure'
-              path='/products'
+              path=''
             />
             <CardItem
-              src='/images/sac/img-5.png'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              src='/images/img-2.jpeg'
+              text='“Many of life’s failures are people who did not realize how close they were to success when they gave up.”'
               label='Adrenaline'
-              path='/sign-up'
+              path=''
             />
            
           </ul>

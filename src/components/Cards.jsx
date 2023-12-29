@@ -11,35 +11,35 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='/images/img-5.jpeg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              text='“Keep your eyes on the stars, and your feet on the ground.”'
               label='Adventure'
-              path='/services'
+              path=''
             />
             <CardItem
               src='/images/img-2.jpeg'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              text='“Be yourself; everyone else is already taken.”'
               label='Luxury'
-              path='/services'
+              path=''
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='/images/img-3.jpeg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              text='“Many of life’s failures are people who did not realize how close they were to success when they gave up.”'
               label='Mystery'
-              path='/services'
+              path=''
             />
             <CardItem
               src='/images/img-4.jpeg'
-              text='Experience Football on Top of the Himilayan Mountains'
+              text='“The true meaning of life is to plant trees, under whose shade you do not expect to sit.”'
               label='Adventure'
-              path='/products'
+              path=''
             />
             <CardItem
               src='/images/img-8.jpeg'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              text='“Action may not always bring happiness; but there is no happiness without action.”'
               label='Adrenaline'
-              path='/sign-up'
+              path=''
             />
            
           </ul>

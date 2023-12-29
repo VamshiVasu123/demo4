@@ -5,31 +5,49 @@ import CardItem from '../components/CardItem';
 export default function ACM() {
   return (<>
   <h1 className='acm'>ACM</h1>
+  <div className="cards">
   <div className='cards__container'>
         <div className='cards__wrapper'>
-          <ul className="card__items">
-          <CardItem
-              src='/images/img-8.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
-            />
-          </ul>
-  <ul className='cards__items'>
+          <ul className='cards__items'>
             <CardItem
-              src='/images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              src='/images/sac/nss/60.jpg'
+              text='“Only those who dare to fail greatly can ever achieve greatly.”'
+              label='Achieve'
+              path=''
             />
             <CardItem
-              src='/images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              src='/images/sac/nss/58.jpg'
+              text='“You need to battle with fear of failure to achieve your goals in life.”'
+              label='Goals'
+              path=''
             />
           </ul>
-          </div></div>
+          <ul className='cards__items'>
+            <CardItem
+              src='/images/sac/nss/59.jpg'
+              text='“Every day, I like to wake up and remind myself to be grateful of the simple things.”'
+              label='Mystery'
+              path=''
+            />
+            </ul>
+            <ul className='cards__items'>
+
+            <CardItem
+              src='/images/sac/nss/63.jpg'
+              text='“If you change the way you look at things, the things you look at change.”'
+              label='Adventure'
+              path=''
+            />
+            <CardItem
+              src='/images/sac/nss/64.jpg'
+              text='“At any given moment you have the power to say: this is how the story is going to end.”'
+              label='Achieve'
+              path=''
+            />
+           
+          </ul>
+        </div>
+        </div></div> 
   </>
   )
 }

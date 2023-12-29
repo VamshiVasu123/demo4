@@ -5,10 +5,15 @@ import Cards from '../components/Cards';
 import Footer from '../components/Footer';
 function Home() {
   return (
-    <div><HeroSection />
+  <>  <div className='bod'>
+   
+  </div>
+  <HeroSection />
+    
     <Cards/>
-    <Footer/></div>
+    
+    <Footer/></>
   )
 }
 
-export default Home
+export default Home;
