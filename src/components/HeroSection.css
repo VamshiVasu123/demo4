@@ -37,7 +37,6 @@
 
 /* styles.css */
 /* styles.css */
-
 .slide-container {
   position: relative;
   max-width: 700px;
@@ -56,10 +55,10 @@
 
 .slide-container img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 10px;
   opacity: 0;
-  animation: fadeIn 5s ease-in-out forwards, zoomIn 1.8s ease-in-out forwards;
+  animation: fadeIn 1s ease-in-out forwards, zoomIn 0.8s ease-in-out forwards;
   transition: transform 0.5s ease-in-out; /* Add transition for a smooth hover effect */
 }
 
@@ -94,9 +93,9 @@
   text-align: center;
   padding: 20px;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.3);
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   animation: slideUp 0.8s ease-in-out forwards, fadeIn 0.8s ease-in-out forwards;
 }
 
