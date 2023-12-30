@@ -1,0 +1,128 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+.bg{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: center;
+    background-image: url("../../public/images/vvit.jpeg");
+}
+h1{
+    margin-bottom: 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem;
+}
+input,
+select,
+textarea{
+    padding: 1.4rem;
+    background: transparent;
+    border: 1px solid black;
+}
+textarea{
+    height: 6rem;
+
+}
+button{
+    width: 8rem;
+    padding: 1.4rem;
+    cursor: #673de6;
+    color: white;
+    background: #673de6;
+}
+.mainclasscontainer{
+    width: 40%;
+    height: 600px;
+    background-color:whitesmoke ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    color: black;
+       margin-left: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+width: 40%;
+height: auto;
+background: rgb(151, 131, 131,0.5);
+margin-left: 30%;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+
+    }
+    .formbg{
+        display: flex;
+        justify-content: center;
+    } */
+
+    * {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        border: 0;
+    }
+    
+    .bg {
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        display: grid;
+        background-image: url("../../public/images/vvit.jpeg");
+        /* Center the background image */
+        background-size: cover;
+        background-position: center;
+    }
+    
+    h1 {
+        margin-bottom: 2rem;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 24rem;
+        gap: 1rem;
+    }
+    
+    input,
+    select,
+    textarea {
+        padding: 1.4rem;
+        background: transparent;
+        border: 1px solid black;
+    }
+    
+    textarea {
+        height: 6rem;
+    }
+    
+    button {
+        width: 8rem;
+        padding: 1.4rem;
+        cursor: pointer; /* Change cursor to pointer for better interaction */
+        color: white;
+        background: #673de6;
+    }
+    
+    .mainclasscontainer {
+        width: 40%;
+        height: auto;
+        background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 5);
+        border-radius: 10px;
+        margin: 50px auto; /* Center the container horizontally and provide some top margin */
+        padding: 20px;
+        padding-left: 75px;
+    }
+    
+    .formbg {
+        display: flex;
+        justify-content: center;
+    }
+    

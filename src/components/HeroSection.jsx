@@ -135,15 +135,15 @@ import './HeroSection.css'; // Import the custom styles
 
 const fadeImages = [
   {
-    url: 'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+    url: 'https://universityinnovation.org/images/7/76/VVIT_arial_View.jpg',
     caption: 'First Slide'
   },
   {
-    url: 'https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80',
+    url: 'https://assets.thehansindia.com/hansindia-bucket/VVIT_6388.jpg',
     caption: 'Second Slide'
   },
   {
-    url: 'https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+    url: 'https://getmyuni.azureedge.net/college-images-test/vasireddy-venkatadri-institute-of-technology-vvit-guntur/2b37fda482944a32b00c77073eb1f30e.jpeg',
     caption: 'Third Slide'
   },
 ];
